@@ -1369,6 +1369,8 @@ def upload_to_storage():
 
     print("Files uploaded successfully to Firestore")
     return excel_url, zip_url
+if __name__ == "__main__":
+app.run(debug=True)
 
 
 
